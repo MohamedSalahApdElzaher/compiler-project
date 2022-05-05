@@ -509,6 +509,29 @@ pE
 ifS
 :   statement
 ;
+whileStatement
+  : WHILE pE whileS
+  ;
+
+dowhileStatement
+: DO whileS WHILE pE ';'
+;
+
+forStatement
+: FOR '(' forC ')' forS
+;
+forC
+: forControl
+;
+
+
+forS
+:  statement
+;
+
+whileS
+:  statement
+;
 
 elseStatement
   : (ELSE elseS=statement)?
