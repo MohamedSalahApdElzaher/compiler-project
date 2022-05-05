@@ -17,4 +17,4 @@ Were the green lines show the executed commands, and the red lines show the comm
 - return to the ide then import the jar file to the project.
 - make sure that all modules are added to the project. 
 - run javaprogram.java.
-- the output will be shown in created files text/output.txt (the blocks covered by the test program) and html/output.html (green color for blocks which is visited and    red color for unvisited blocks).
+- the output will be shown in created files text/output.txt (the blocks covered by the test program) and html/output.html (green color for blocks which are visited and    red color for unvisited blocks).
