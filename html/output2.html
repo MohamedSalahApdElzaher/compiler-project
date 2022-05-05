@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>compiler</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body bgcolor="LimeGreen">package test;<br>
+import java.io.PrintWriter;<br>
+
+public class test2 {<p id="b-1">
+    public static void main(String args[]) throws Exception
+    {<p id="b0">
+ int[] intArray = new int[20];<br> 
+
+		 intArray [1] =1;<br>
+        int number=20;<br>
+        switch(number){<p id="b1">
+            case 10:{<p id="b2">
+		 intArray [2] =1;<br>
+                System.out.println("10");<br>
+            }</p>
+                break;<br>
+            case 20: {<p id="b3">
+		 intArray [3] =1;<br>
+                System.out.println("20");<br>
+            }</p>
+                break;<br>
+            case 30:{<p id="b4">
+		 intArray [4] =1;<br>
+                System.out.println("30");<br>
+            }</p>
+                break;<br>
+            default:System.out.println("Not in 10, 20 or 30");<br>
+        }</p>
+ PrintWriter out = new PrintWriter("Text/output2.txt");<br>
+ for(int i=0 ;<br> i< 20;<br> i++){<p id="b5">
+     if (intArray[i] == 1)
+        out.println("block#"+i);<br>
+
+     
+ }</p>
+        out.close();<br>
+
+    }</p>
+}</p>
+
+</body>
+</html>
