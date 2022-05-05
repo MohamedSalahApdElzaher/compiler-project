@@ -9,3 +9,12 @@
 ![Screenshot from 2022-04-13 17-16-28](https://user-images.githubusercontent.com/47748059/163214182-7d87aade-feb2-4b9e-925f-d4b8b7e3afc0.png)
 
 Were the green lines show the executed commands, and the red lines show the commands which are not executed when the program ran
+
+## How to run the program ? 
+1- make the clone of the repo.
+2- open the folder of the repo on an ide such as intelliJ.
+3- download antlr-4.9.3 (jar file).
+4- return to the ide then import the jar file to the project.
+5- make sure that all modules are added to the project. 
+6- run javaprogram.java.
+7- the output will be shown in created files text/output.txt (the blocks covered by the test program) and html/output.html (green color for blocks which is visited and red color for unvisited blocks).
