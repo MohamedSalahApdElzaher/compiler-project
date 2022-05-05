@@ -1,4 +1,4 @@
-// Generated from E:/college_final_part/compilers/compiler_project\JavaLexer.g4 by ANTLR 4.9.2
+// Generated from C:/Users/Salma-PC/Desktop/compiler_pro/compiler_project\JavaLexer.g4 by ANTLR 4.9.2
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;

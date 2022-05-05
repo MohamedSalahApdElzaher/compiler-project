@@ -1,4 +1,4 @@
-// Generated from E:/college_final_part/compilers/compiler_project\JavaParser.g4 by ANTLR 4.9.2
+// Generated from C:/Users/Salma-PC/Desktop/compiler_pro/compiler_project\JavaParser.g4 by ANTLR 4.9.2
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
 /**
@@ -513,6 +513,54 @@ public interface JavaParserVisitor<T> extends ParseTreeVisitor<T> {
 	 * @return the visitor result
 	 */
 	T visitIfStatement(JavaParser.IfStatementContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#pE}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitPE(JavaParser.PEContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#ifS}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitIfS(JavaParser.IfSContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#whileStatement}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitWhileStatement(JavaParser.WhileStatementContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#dowhileStatement}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitDowhileStatement(JavaParser.DowhileStatementContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#forStatement}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitForStatement(JavaParser.ForStatementContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#forC}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitForC(JavaParser.ForCContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#forS}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitForS(JavaParser.ForSContext ctx);
+	/**
+	 * Visit a parse tree produced by {@link JavaParser#whileS}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitWhileS(JavaParser.WhileSContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link JavaParser#elseStatement}.
 	 * @param ctx the parse tree

@@ -1,4 +1,4 @@
-// Generated from E:/college_final_part/compilers/compiler_project\JavaParser.g4 by ANTLR 4.9.2
+// Generated from C:/Users/Salma-PC/Desktop/compiler_pro/compiler_project\JavaParser.g4 by ANTLR 4.9.2
 import org.antlr.v4.runtime.tree.ParseTreeListener;
 
 /**
@@ -846,6 +846,86 @@ public interface JavaParserListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitIfStatement(JavaParser.IfStatementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#pE}.
+	 * @param ctx the parse tree
+	 */
+	void enterPE(JavaParser.PEContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#pE}.
+	 * @param ctx the parse tree
+	 */
+	void exitPE(JavaParser.PEContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#ifS}.
+	 * @param ctx the parse tree
+	 */
+	void enterIfS(JavaParser.IfSContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#ifS}.
+	 * @param ctx the parse tree
+	 */
+	void exitIfS(JavaParser.IfSContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#whileStatement}.
+	 * @param ctx the parse tree
+	 */
+	void enterWhileStatement(JavaParser.WhileStatementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#whileStatement}.
+	 * @param ctx the parse tree
+	 */
+	void exitWhileStatement(JavaParser.WhileStatementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#dowhileStatement}.
+	 * @param ctx the parse tree
+	 */
+	void enterDowhileStatement(JavaParser.DowhileStatementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#dowhileStatement}.
+	 * @param ctx the parse tree
+	 */
+	void exitDowhileStatement(JavaParser.DowhileStatementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#forStatement}.
+	 * @param ctx the parse tree
+	 */
+	void enterForStatement(JavaParser.ForStatementContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#forStatement}.
+	 * @param ctx the parse tree
+	 */
+	void exitForStatement(JavaParser.ForStatementContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#forC}.
+	 * @param ctx the parse tree
+	 */
+	void enterForC(JavaParser.ForCContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#forC}.
+	 * @param ctx the parse tree
+	 */
+	void exitForC(JavaParser.ForCContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#forS}.
+	 * @param ctx the parse tree
+	 */
+	void enterForS(JavaParser.ForSContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#forS}.
+	 * @param ctx the parse tree
+	 */
+	void exitForS(JavaParser.ForSContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link JavaParser#whileS}.
+	 * @param ctx the parse tree
+	 */
+	void enterWhileS(JavaParser.WhileSContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link JavaParser#whileS}.
+	 * @param ctx the parse tree
+	 */
+	void exitWhileS(JavaParser.WhileSContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link JavaParser#elseStatement}.
 	 * @param ctx the parse tree
